@@ -19,8 +19,8 @@ I have used H2 database with 10 default questions in Questions table of concepti
 These questions are inserted into the table using schema.sql file which is stored in resource folder of this application.
 These questions have two categories or topics - 1. Java 2. SQL
 
-username - Pratyush
-password - conceptile
+1. username - Pratyush
+2. password - conceptile
 
 # REST APIs
 1. /quiz/create - This PostMapping API is to create a quiz with given topic, either Java or SQL (default), Number of questions, title of the Quiz. This method get the questions from database with given topic. These questions are randomly selected and randomly arranged. When we create a quiz, it get stored in the database with a quizId which is auto generated and auto increment.
