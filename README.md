@@ -1,8 +1,8 @@
 # Quiz-App
 This is a java spring boot based quiz application.
 # Configurations
-1. Programming Language - Java
-2. version - Java 21
+1. Programming Language - Java 21
+2. JDK version - 21
 3. Spring Boot version - 3.4.0
 4. Project - Maven
 5. Packaging - Jar
