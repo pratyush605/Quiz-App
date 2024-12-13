@@ -21,6 +21,8 @@ These questions have two categories or topics - 1. Java 2. SQL
 
 1. username - Pratyush
 2. password - conceptile
+3. JDBC URL - jdbc:h2:mem:conceptile
+4. Driver Class - org.h2.Driver
 
 # REST APIs
 1. /quiz/create - This PostMapping API is to create a quiz with given topic, either Java or SQL (default), Number of questions, title of the Quiz. This method get the questions from database with given topic. These questions are randomly selected and randomly arranged. When we create a quiz, it get stored in the database with a quizId which is auto generated and auto increment.
